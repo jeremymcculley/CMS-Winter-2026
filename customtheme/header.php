@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="<?php echo esc_url(home_url('wp-content/themes/customtheme/style.css')); ?>">
   </head>
   <body <?php body_class(); ?>>
-    <header class="default-header">
+    <header class="default-header navbar">
       <div>
         <a href="<?php echo esc_url(home_url()); ?>">
-          <img src="" alt="I will add an image later">
+          <img src="<?php echo esc_url(home_url('wp-content/uploads/2026/01/coffee-logo.png')); ?>" alt="coffee brand logo">
         </a>
       </div>
       <nav>
